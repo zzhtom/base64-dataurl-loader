@@ -2,7 +2,7 @@
 # base64-dataurl-loader for webpack
 
 
-![NPM](https://img.shields.io/npm/l/base64-dataurl-loader)
+![NPM](https://img.shields.io/npm/l/base64-dataurl-loader?style=social)
 
 > use base64-dataurl-loader handle image return DataURL
 
