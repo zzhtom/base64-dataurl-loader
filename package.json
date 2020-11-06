@@ -2,16 +2,25 @@
   "name": "base64-dataurl-loader",
   "version": "1.0.2",
   "description": "handle file return DataURL",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "cross-env NODE_ENV=production babel src -d dist --copy-files",
     "test": "jest"
   },
   "author": "zhangxiaoheng<xiaoheng.zh@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "mime-types": "^2.1.27"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "babel-jest": "^26.6.3",
+    "cross-env": "^7.0.2",
     "eslint": "^7.12.1",
     "eslint-config-standard": "^16.0.1",
     "eslint-plugin-import": "^2.22.1",

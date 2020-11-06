@@ -15,7 +15,7 @@ export default (fixture, options = {}) => {
         {
           test: /\.(png|jpe?g|gif)$/i,
           use: {
-            loader: path.resolve(__dirname, '../index.js')
+            loader: path.resolve(__dirname, '../src/index.js')
           }
         }
       ]

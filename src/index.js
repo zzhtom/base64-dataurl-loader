@@ -16,3 +16,5 @@ export default function loader (source) {
     'data:' + getMimetype(this.resourcePath) + ';base64,' + source.toString('base64')
   )}`
 }
+
+module.exports.raw = true

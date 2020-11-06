@@ -27,6 +27,12 @@ module.exports = {
     },
 };
 ```
+
+## build
+```bash
+yarn build
+```
+
 ## test
 
 ```bash
