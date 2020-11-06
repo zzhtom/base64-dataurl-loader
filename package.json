@@ -1,6 +1,6 @@
 {
   "name": "base64-dataurl-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "handle file return DataURL",
   "main": "index.js",
   "scripts": {
