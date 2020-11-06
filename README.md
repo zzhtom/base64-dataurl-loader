@@ -7,8 +7,9 @@
 > use base64-dataurl-loader handle image return DataURL
 
 ## Installation
-
-`npm install base64-dataurl-loader`
+```bash
+npm install base64-dataurl-loader
+```
 
 ## Usage
 webpack.config.js
