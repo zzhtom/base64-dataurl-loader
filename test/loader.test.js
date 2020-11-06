@@ -1,7 +1,7 @@
 /* global test, expect */
 import compiler from './compiler.js'
 
-test('Inserts name and outputs JavaScript', async () => {
+test('should equal base64 encoding', async () => {
   const stats = await compiler('example.png')
   const output = stats.toJson({ source: true }).modules[0].source
   expect(output).toBe(
